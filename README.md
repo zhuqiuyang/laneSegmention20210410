@@ -1,37 +1,22 @@
 # laneSegmention20210410
+  - 开讲日期20210411-上午9点
+  - 以下文件都可以在https://gitee.com/mingminglaoshi/lane-segmention20210410     找到，若找不到联系，可以明明老师协助。微信13271929138
+  - week1 
+```
+CV名企课-车道线分割-WEEK1 :  项目概述及上采样技术
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+Pipeline:
+0.师生相互了解
+1.项目概述
+2.卷积神经网络
+3.上采样技术
 
-#### 介绍
-课后作业同步
-
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+作业：
+   1. 安装python环境，安装numpy,pytorch等库、
+   2. 跑通老师提供的双线性插值循环版本
+   3. 用numpy实现双线性插值的矩阵版本（函数提示:np_marid,np.clip, np.expand_dims
+   4. 测试双线性插值循环版和矩阵版本的运行时间和结果差异（参考陈老师提供的nearest的代码)
+提交要求：
+   1. 提交双线性插值矩阵版本的python代码（建议.py 或 .ipynb格式)
+   2. 提交两个版本的运行时间和结果差异截图
+```
