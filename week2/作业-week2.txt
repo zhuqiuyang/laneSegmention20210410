@@ -1,0 +1,6 @@
+作业内容：
+1.参照老师的代码，用PyTorch实现FCN-4s（padding=100）
+
+提交要求：
+1.FCN-4s的代码（建议.py或.ipynb格式）
+2.FCN-4s中crop的offset计算过程（建议word格式）
