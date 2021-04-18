@@ -23,3 +23,23 @@ week1文件夹说明：
    1. cat.png:upsampling.ipynb 使用的样例图片
    2. upsampling.ipynb 上采样参考代码
 ```
+  - week2 
+```
+CV名企课-车道线分割-WEEK1 :  转置卷积与FCN
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+Pipeline:
+0.双线性上采样作业回顾
+1.转置卷积详解与反向传播
+2.全卷积网略(FCN)
+
+作业：
+   1. 参照代码week2/fcn.py,用pytorch实现FCN-4s(padding=100)
+提交内容：
+   1. FCN-4s的代码（建议.py格式和ipynb格式)
+   2. FCN-4s中的crop的offset计算过程(建议word格式)
+
+week2文件夹内容说明：
+   1. fcn.py：FCN的参考资料
+   2. upsampling_homework.py:双线性上采样实现方法。
+   3. Long_Fuuly_Convolutional_Networks_2015_CVPR_paper.pdf:FCN论文
+```
