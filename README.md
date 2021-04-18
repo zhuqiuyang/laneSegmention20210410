@@ -30,7 +30,7 @@ https://gitee.com/mingminglaoshi/lane-segmention20210410
 Pipeline:
 0.双线性上采样作业回顾
 1.转置卷积详解与反向传播
-2.全卷积网略(FCN)
+2.全卷积网络(FCN)
 
 作业：
    1. 参照代码week2/fcn.py,用pytorch实现FCN-4s(padding=100)
