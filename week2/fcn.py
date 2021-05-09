@@ -95,6 +95,8 @@ print(y.shape)
 """### 上采样模块的权重初始化"""
 
 def bilinear_kernel(in_channels, out_channels, kernel_size):
+    import pdb
+    pdb.set_trace()
     factor = (kernel_size + 1) // 2
     
     center = kernel_size / 2 - 0.5
@@ -161,9 +163,9 @@ class VGG_19bn_8s(nn.Module):
         self.up2times = nn.ConvTranspose2d(
             n_class, n_class, 4, stride=2, bias=False)
         self.up4times = nn.ConvTranspose2d(
-            n_class, n_class, 4, stride=2, bias=False)
+            n_class, n_class, 8, stride=4, bias=False)
         self.up32times = nn.ConvTranspose2d(
-            n_class, n_class, 16, stride=8, bias=False)
+            n_class, n_class, 64, stride=32, bias=False)
         for m in self.modules():
             if isinstance(m, nn.ConvTranspose2d):
                 m.weight.data = bilinear_kernel(n_class, n_class, m.kernel_size[0])
@@ -198,7 +200,7 @@ model = VGG_19bn_8s(21)
 x = torch.randn(2, 3, 58, 58)
 model.eval()
 y_vgg = model(x)
-y_vgg.size()
+print(y_vgg.size())
 
 from torchsummary import summary
 summary(model, (3, 224, 224))

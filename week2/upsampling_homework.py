@@ -13,6 +13,9 @@ def bilinear_interpolation(src, dst_size):
     for c in range(channel):
         for dst_x in range(dst_w):
             for dst_y in range(dst_h):
+                #import pdb
+                #pdb.set_trace()
+                # 像素中心点与像素坐标 
                 src_x = (dst_x + 0.5) / x_scale - 0.5
                 src_y = (dst_y + 0.5) / y_scale - 0.5
 
@@ -31,8 +34,11 @@ def bilinear_interpolation(src, dst_size):
                 src_y1 = clip(src_y1, 0, src_h - 1)
                 src_y2 = clip(src_y2, 0, src_h - 1)
 
+                #实现x方向上的线性：            
                 y1_value = (src_x - src_x1) * src[src_y1, src_x2, c] + (src_x2 - src_x) * src[src_y1, src_x1, c]
+                #实现x方向上的线性：            
                 y2_value = (src_x - src_x1) * src[src_y2, src_x2, c] + (src_x2 - src_x) * src[src_y2, src_x1, c]
+                #实现y方向上的线性：            
                 dst[dst_y, dst_x, c] = (src_y - src_y1) * y2_value + (src_y2 - src_y) * y1_value
     return dst
 
@@ -63,12 +69,16 @@ def bilinear_interpolation_fast(src, dst_size):
     np.expand_dims(src_x - src_x1, -1)
     -1 :最后一个纬度
     '''
+    import pdb
+    pdb.set_trace()
     y1_value = np.expand_dims(src_x - src_x1, -1) * src[src_y1, src_x2] + \
                np.expand_dims(src_x2 - src_x, -1) * src[src_y1, src_x1]
 
     y2_value = np.expand_dims(src_x - src_x1, -1) * src[src_y2, src_x2] + \
                np.expand_dims(src_x2 - src_x, -1) * src[src_y2, src_x1]
-
+    # 
+    import pdb
+    pdb.set_trace()
     dst = np.expand_dims(src_y - src_y1, -1) * y2_value + \
           np.expand_dims(src_y2 - src_y, -1) * y1_value
 
