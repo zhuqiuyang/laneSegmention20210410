@@ -25,7 +25,7 @@ week1文件夹说明：
 ```
   - week2 
 ```
-CV名企课-车道线分割-WEEK1 :  转置卷积与FCN
+CV名企课-车道线分割-WEEK2 :  转置卷积与FCN
 https://gitee.com/mingminglaoshi/lane-segmention20210410
 Pipeline:
 0.双线性上采样作业回顾
@@ -42,4 +42,26 @@ week2文件夹内容说明：
    1. fcn.py：FCN的参考资料
    2. upsampling_homework.py:双线性上采样实现方法。
    3. Long_Fuuly_Convolutional_Networks_2015_CVPR_paper.pdf:FCN论文
+```
+  - week3 
+```
+CV名企课-车道线分割-WEEK3 :  U-Net模型详解
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+Pipeline:
+0.FCN-4s作业回顾
+1.U-Net详解
+2.U-Net网络结构修改
+3.扩展学习:U-Net++
+
+作业：
+   1. 对老师提供的 U-Net++L2代码进行修改，backbone替换为ResNet,其他卷积块替换为ResNet中的BasicBlock。按照作业中的注释要求进行修改。
+提交内容：
+   1. 提交修改后的代码（建议.py格式和ipynb格式）
+   2. 将backbone分别替换为resnet34和resnet50,将打印出的结果截图提交
+
+week3文件夹内容说明：
+   1. week2参考答案/FCN_4s.py：FCN实现4s的代码参考
+   2. 作业：week3的作业代码
+   3. 论文：week3涉及到的UNet,ResNet,hourglass以及pix2pix的论文。
+   4. 课上代码：课堂上涉及到的UNet.py,ResNet.py相关代码。
 ```
