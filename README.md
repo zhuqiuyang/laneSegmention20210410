@@ -64,4 +64,8 @@ week3文件夹内容说明：
    2. 作业：week3的作业代码
    3. 论文：week3涉及到的UNet,ResNet,hourglass以及pix2pix的论文。
    4. 课上代码：课堂上涉及到的UNet.py,ResNet.py相关代码。
+补充内容：
+   1. U-Net论文解析：https://zhuanlan.zhihu.com/p/370931792
+   2. ResNet34模型计算过程详解：https://zhuanlan.zhihu.com/p/370931435
+   3. 最佳backbone:resnet的几种变形：https://zhuanlan.zhihu.com/p/370930808
 ```
