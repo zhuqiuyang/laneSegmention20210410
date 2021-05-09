@@ -68,4 +68,5 @@ week3文件夹内容说明：
    1. U-Net论文解析：https://zhuanlan.zhihu.com/p/370931792
    2. ResNet34模型计算过程详解：https://zhuanlan.zhihu.com/p/370931435
    3. 最佳backbone:resnet的几种变形：https://zhuanlan.zhihu.com/p/370930808
+   4. U- Net论文带读以及代码带写：https://www.bilibili.com/video/BV1KK4y1A7TD
 ```
