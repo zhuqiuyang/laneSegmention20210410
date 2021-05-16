@@ -98,8 +98,8 @@ week4文件夹内容说明：
    3. 论文：week4涉及到的deeplabv1,v2,v3,v3+等论文。
    4. 课上代码：课堂上涉及到的deeplabv3plus.py
 补充内容：
-   1. 关于空洞卷积的讨论：https://zhuanlan.zhihu.com/p/372753977/edit
+   1. 关于空洞卷积的讨论：https://zhuanlan.zhihu.com/p/372753977
    1. Deeplabv1论文解析：待更新
    2. ResNet50模型计算过程详解：待更新
-   3. 条件随机场CRF与图像分割：
+   3. 条件随机场CRF与图像分割：https://zhuanlan.zhihu.com/p/372759285
 ```
