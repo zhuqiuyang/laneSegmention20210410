@@ -70,3 +70,34 @@ week3文件夹内容说明：
    3. 最佳backbone:resnet的几种变形：https://zhuanlan.zhihu.com/p/370930808
    4. U- Net论文带读以及代码带写：https://www.bilibili.com/video/BV1KK4y1A7TD
 ```
+
+  - week4 
+```
+CV名企课-车道线分割-WEEK4 :  DeepLab模型详解
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+
+Pipeline:
+0.UNet++作业回顾
+1.膨胀卷积
+2.DeepLabV1
+3.DeepLabV2
+4.DeepLabV3
+5.DeepLabV3+
+6.DeepLabV3+代码实战
+
+作业：
+   1. 基于老师提供的aspp.py文件，补全aspp模块。
+   2. 计算backbone为resnet50_atrous时，ASPP五个分支各自感受野的大小（要求计算output_stride=8,和output_stride=16的情况)
+提交内容：
+   1. 提交修改后的aspp的完整代码（建议.py格式和ipynb格式）
+   2. 感受野的大小计算过程以及结果(建议txt,word或者pad格式)
+
+week4文件夹内容说明：
+   1. week4/week3参考答案/resnet_unetpp_homework.py：week3的UNetpp的L2级别的代码参考
+   2. week4/aspp.py:week4的作业代码
+   3. 论文：week4涉及到的deeplabv1,v2,v3,v3+等论文。
+   4. 课上代码：课堂上涉及到的deeplabv3plus.py
+补充内容：
+   1. Deeplabv1论文解析：待更新
+   2. ResNet50模型计算过程详解：待更新
+```
