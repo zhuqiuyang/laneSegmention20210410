@@ -1,0 +1,7 @@
+作业内容
+基于老师提供的代码，补全ASPP模块
+基于老师提供的代码，在backbone为resnet50_atrous情况下，计算ASPP五个分支各自的感受野大小（要求计算OUTPUT_STRIDE为8和16两种情况下的结果）
+
+提交要求
+aspp.py的完整代码
+感受野大小计算过程及结果（建议txt、word或pdf格式）
