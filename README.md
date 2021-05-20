@@ -102,4 +102,5 @@ week4文件夹内容说明：
    1. Deeplabv1论文解析：待更新
    2. ResNet50模型计算过程详解：待更新
    3. 条件随机场CRF与图像分割：https://zhuanlan.zhihu.com/p/372759285
+   4. DeepLabv1与VGG-16模型的感受野计算：https://zhuanlan.zhihu.com/p/373639725
 ```
