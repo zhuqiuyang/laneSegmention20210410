@@ -120,6 +120,7 @@ Pipeline:
 作业：
    1. 将small_dataset制作成LMDB格式的数据集
    2. 基于老师提供的代码，将LaneDataset 改写为从LMDB中读取数据
+   [选做]3. 使用小批量数据集进行 deeplabv3+模型的从零开始训练，使用交叉熵，SGD进行训练。
 
 提交内容：
    1. README.txt - LMDB制作方法概述(Key的选择，数据解析方式等)
