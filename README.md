@@ -137,5 +137,6 @@ week5文件夹内容说明：
    2. 车道线检测经典常用数据集整理：待更新在https://gitee.com/mingminglaoshi/lane-segmention20210410/blob/master/README.md
    3. LMDB的生成与读取:https://www.cnblogs.com/houjun/p/10484945.html
    4. 图像数据增强包IAA：https://blog.csdn.net/qq_36552489/article/details/107645788
+   5. IMDB2IMG方法,IMG2IMDB方法：https://www.jianshu.com/p/ef84715e0fdc
 
 ```
