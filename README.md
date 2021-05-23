@@ -99,8 +99,39 @@ week4文件夹内容说明：
    4. 课上代码：课堂上涉及到的deeplabv3plus.py
 补充内容：
    1. 关于空洞卷积的讨论：https://zhuanlan.zhihu.com/p/372753977
-   1. Deeplabv1论文解析：https://zhuanlan.zhihu.com/p/373825061
-   2. ResNet50模型计算过程详解：https://zhuanlan.zhihu.com/p/374448655
-   3. 条件随机场CRF与图像分割：https://zhuanlan.zhihu.com/p/372759285
-   4. DeepLabv1与VGG-16模型的感受野计算：https://zhuanlan.zhihu.com/p/373639725
+   2. Deeplabv1论文解析：https://zhuanlan.zhihu.com/p/373825061
+   3. ResNet50模型计算过程详解：https://zhuanlan.zhihu.com/p/374448655
+   4. 条件随机场CRF与图像分割：https://zhuanlan.zhihu.com/p/372759285
+   5. DeepLabv1与VGG-16模型的感受野计算：https://zhuanlan.zhihu.com/p/373639725
+```
+
+- week5 
+```
+CV名企课-车道线分割-WEEK5 :  数据处理
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+
+Pipeline:
+0.ASPP,以及DeeplabV3+感受野作业回顾
+1.数据集制作
+2.数据处理
+3.数据加载
+4.数据闭环与主动学习
+
+作业：
+   1. 将small_dataset制作成LMDB格式的数据集
+   2. 基于老师提供的代码，将LaneDataset 改写为从LMDB中读取数据
+
+提交内容：
+   1. README.txt - LMDB制作方法概述(Key的选择，数据解析方式等)
+   2. make_lmdb.py - LMDB的制作脚本
+   3. image_process.py - 其中LaneDataset读取方式改为LMDB
+
+week5文件夹内容说明：
+   1. week5/class_code：week5课上代码，主要涉及颜色变换，投影变换等图片增广的示范程序。
+   2. week5/homework:作业参考代码。小批量数据集的数据预处理与数据增广，数据加载程序。作业可在此代码的基础上更改。
+   3. week4_homework_anser:ASPP代码以及deeplabv3+感受野计算参考答案。
+
+补充内容：
+   1. 感受野前向计算，后向计算的公式以及公式推导：待更新。
+   2. 车道线检测经典常用数据集整理：待更新。
 ```
