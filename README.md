@@ -134,4 +134,6 @@ week5文件夹内容说明：
 补充内容：
    1. 感受野前向计算，后向计算的公式以及公式推导：待更新在https://gitee.com/mingminglaoshi/lane-segmention20210410/blob/master/README.md
    2. 车道线检测经典常用数据集整理：待更新在https://gitee.com/mingminglaoshi/lane-segmention20210410/blob/master/README.md
+   3. LMDB的生成与读取:https://www.cnblogs.com/houjun/p/10484945.html
+
 ```
