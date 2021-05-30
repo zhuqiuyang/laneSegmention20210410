@@ -171,10 +171,11 @@ Pipeline:
    3. week6/class_code_homework/predict.py: 测试代码，含加载模型，利用模型前向计算，给前向计算结果染色，并保存图片。
    4. week6/utils:此文件夹内含有数据处理程序，loss函数定义等。
    5. week6/model:此文件夹为FCN,UNET,deeplabv3p等模型声明，以及初始化部分。
-   6. week5_answer_vip:优秀学员版的LMDB数据处理程序
-   7. week5_answer_kkb:教研版的LMDB数据处理程序
+   6. week5_answer_vip:每个图片保存一个data,LMDB数据处理程序参考
+   7. week5_answer_kkb:所有图片保存一个data,LMDB数据处理程序参考
 补充内容:
-      LMDB字节数的计算方法：
-      平均分布和正太分布方差的推导：
-      梯度下降算法的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
+   1. 数据集下载路径：
+   2. LMDB字节数的计算方法：
+   3. 平均分布和正太分布方差的推导：
+   4. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
 ```
