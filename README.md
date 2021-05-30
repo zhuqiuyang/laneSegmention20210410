@@ -179,3 +179,4 @@ Pipeline:
    3. 平均分布均值和方差的推导：https://zhuanlan.zhihu.com/p/376497110
    4. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
 ```
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0530/173303_79a4f2a2_8791625.png "屏幕截图.png")
