@@ -175,8 +175,8 @@ Pipeline:
    7. week5_answer_kkb:所有图片保存一个data,LMDB数据处理程序参考
 补充内容:
    1. 数据集下载路径：[待补充]
-   2. LMDB字节数的计算方法：map_size 指定创建的新数据库所需磁盘空间的最小值，1099511627776B＝１T。可以在这里https://cunchu.51240.com存储单位换算。
-   3. 平均分布均值和方差的推导：https://zhuanlan.zhihu.com/p/376497110
-   4. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
+   2. 平均分布均值和方差的推导：https://zhuanlan.zhihu.com/p/376497110
+   3. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
+   4. LMDB字节数的计算方法：map_size 指定创建的新数据库所需磁盘空间的最小值，1099511627776B＝１T。可以在这里https://cunchu.51240.com存储单位换算，也可以看下图：
 ```
 ![输入图片说明](https://images.gitee.com/uploads/images/2021/0530/173303_79a4f2a2_8791625.png "屏幕截图.png")
