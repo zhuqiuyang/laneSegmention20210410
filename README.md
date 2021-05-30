@@ -174,8 +174,8 @@ Pipeline:
    6. week5_answer_vip:每个图片保存一个data,LMDB数据处理程序参考
    7. week5_answer_kkb:所有图片保存一个data,LMDB数据处理程序参考
 补充内容:
-   1. 数据集下载路径：
+   1. 数据集下载路径：[待补充]
    2. LMDB字节数的计算方法：
-   3. 平均分布和正太分布方差的推导：
+   3. 平均分布均值和方差的推导：https://zhuanlan.zhihu.com/p/376497110
    4. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
 ```
