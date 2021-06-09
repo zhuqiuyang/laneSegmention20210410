@@ -151,7 +151,6 @@ Pipeline:
 1. 训练流程概述
 2. 参数初始化
 3. 优化器
-[待讲解]
 4. 学习率调整
 5. 损失函数
 6. 代码详解
@@ -174,8 +173,48 @@ Pipeline:
    6. week5_answer_vip:每个图片保存一个data,LMDB数据处理程序参考
    7. week5_answer_kkb:所有图片保存一个data,LMDB数据处理程序参考
 补充内容:
-   1. 数据集下载路径：
-   2. LMDB字节数的计算方法：
-   3. 平均分布和正太分布方差的推导：
-   4. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
+   1. 数据集下载路径：链接: https://pan.baidu.com/s/1x0B37jvTkrDikGITK_efcQ 密码: of61
+   2. 平均分布均值和方差的推导：https://zhuanlan.zhihu.com/p/376497110
+   3. 梯度下降算法几种变种的补充材料：https://www.cnblogs.com/neopenx/p/4768388.html
+   4. LMDB字节数的计算方法：map_size 指定创建的新数据库所需磁盘空间的最小值，1099511627776B＝１T。可以在这里https://cunchu.51240.com存储单位换算，也可以看下图：
+```
+![输入图片说明](https://images.gitee.com/uploads/images/2021/0530/173303_79a4f2a2_8791625.png "屏幕截图.png")
+
+
+- week7 
+```
+CV名企课-车道线分割-WEEK7: 模型的评价与部署
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+Pipeline:
+1. 模型训练作业回顾
+2. 语义分割评价指标
+3. 模型测试
+4. 服务端部署简介
+5. 移动端部署简介
+
+作业:
+   1. 跑通Flask的demo,并将模型替换为自己在week6训练的模型
+   2. 学习MNN,编译并跑通老师提供的PortraitNet代码(Windows/Linux均可)，http://github.com/alibaba/MNN,https://www.yuque.com/mnn/cn
+   3. [选做] 将自己训练的模型进行转换(pytorch->onnx->MNN),并修改PortraitNet代码为车道线分割代码，编译运行(Windows/Linux均可)
+
+提交内容:
+   1. Flask_demo.py跑通截图
+   2. PortraitNet代码跑通截图
+   3. ReadMe.txt---描述PortraitNet编译跑通的具体步骤，以及遇到的难点和解决办法
+
+文件夹内容说明：
+   1. week7/week6_answer： week6作业的优秀学员作业，作为参考
+   2. week7/lane_segmentation: 内含flask_demo.py,这个是服务端部署的一个简单的demo,需要运行起来然后截图
+   3. week7/lane_segmentation/flask_demo.py,作业1要求运行成功的代码
+   4. week7/lane_segmentation/templates/index.html, 服务器上的主页
+   5. week7/lane_segmentation/templates/show_result.html, 服务器上的结果显示页面
+   6. week7/MNN: MNN的github源码，readme等，windows编译包，以及测试代码main.cpp 
+   7. week7/MNN/MNN/PortraitNet.mnn 模型参数以及模型结构保存文件。
+   8. week8/NMM/MNN/test/compile.bat,  windows上使用的编译命令。
+
+补充内容:
+   1. flask_demo.py 环境准备工作以及运行视频：https://zhuanlan.zhihu.com/p/378379199
+   2. MNN在mac/linux上的编译，运行步骤以及相关视频[待更新]
+   3. CircleLR为何可用比较小的学习率【待更新】
+   4. 模型量化相关资料整理【待更新】
 ```

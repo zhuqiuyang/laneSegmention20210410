@@ -1,0 +1,12 @@
+作业内容：
+1.跑通Flask的demo，并将模型替换为自己训练的模型
+2.学习MNN，编译并跑通老师提供的PortraitNet代码（Windows/Linux均可）
+    参考链接：
+    https://github.com/alibaba/MNN
+    https://www.yuque.com/mnn/cn
+3.【选做】将自己训练的模型进行转换(pytorch->onnx->MNN)，并修改PortraitNet代码为车道线分割代码，编译运行（Windows/Linux均可）
+
+提交要求：
+1.Flask跑通截图
+2-1.PortraitNet代码跑通截图
+2-2.ReadMe.txt – 描述PortraitNet编译跑通的具体步骤，以及遇到的难点和解决方法

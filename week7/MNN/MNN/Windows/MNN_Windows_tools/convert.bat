@@ -1,0 +1,1 @@
+MNNConvert -f ONNX --modelFile PortraitNet.onnx --MNNModel PortraitNet.mnn --bizCode biz
