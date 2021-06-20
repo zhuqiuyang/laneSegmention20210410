@@ -214,7 +214,7 @@ Pipeline:
 
 补充内容:
    1. flask_demo.py 环境准备工作以及运行视频：https://zhuanlan.zhihu.com/p/378379199
-   2. MNN在mac/linux上的编译，运行步骤以及相关视频[待更新]
+   2. MNN在mac/linux上的编译，运行步骤以及相关视频：https://zhuanlan.zhihu.com/p/382372993
    3. CircleLR为何可用比较小的学习率【待更新】
    4. 模型量化相关资料整理【待更新】
 ```
