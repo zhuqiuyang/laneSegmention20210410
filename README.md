@@ -241,5 +241,10 @@ Pipeline:
 文件夹内容说明：
 
 补充内容:
-   1. 
+   1. MMSegmentation官网：https://github.com/open-mmlab/mmsegmentation
+   2. MMSegmentation安装说明文档：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/get_started.md#installation
+   3. ORCNET:https://github.com/open-mmlab/mmsegmentation/tree/master/configs/ocrnet 
+   4. 自定义数据集的方法：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/tutorials/customize_datasets.md
+   5. 训练模型的操作步骤：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/train.md
+
 ```
