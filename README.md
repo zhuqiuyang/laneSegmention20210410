@@ -218,3 +218,28 @@ Pipeline:
    3. CircleLR为何可用比较小的学习率【待更新】
    4. 模型量化相关资料整理【待更新】
 ```
+
+- week8 
+```
+CV名企课-车道线分割-WEEK8: 图像分割进阶
+https://gitee.com/mingminglaoshi/lane-segmention20210410
+Pipeline:
+1. 服务器部署和移动端部署-作业回顾
+2. 语义分割进展
+3. 实例分割概述
+4. 全景分割概述
+
+作业:
+   1. 学习并安装MMSegmentation 下载官方Checkpoint,并跑通demo
+   2. 制作车道线数据集，并使用MMSegmentation进行训练
+
+提交内容:
+   1. Demo跑通截图
+   2. 成功训练的截图
+   3. ReadMe.txt---描述数据集制作过程，config修改过程
+
+文件夹内容说明：
+
+补充内容:
+   1. 
+```
