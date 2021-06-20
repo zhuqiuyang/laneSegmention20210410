@@ -241,6 +241,7 @@ Pipeline:
 文件夹内容说明：
 
 补充内容:
+   0. MNN在mac/linux上的编译，运行步骤以及相关视频：https://zhuanlan.zhihu.com/p/382372993
    1. MMSegmentation官网：https://github.com/open-mmlab/mmsegmentation
    2. MMSegmentation安装说明文档：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/get_started.md#installation
    3. ORCNET:https://github.com/open-mmlab/mmsegmentation/tree/master/configs/ocrnet 
