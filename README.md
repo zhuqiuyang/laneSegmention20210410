@@ -248,7 +248,7 @@ Pipeline:
    5. 训练模型的操作步骤：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/train.md
    6. 19年之后的几个语义分割模型：https://zhuanlan.zhihu.com/p/382378039
    7. 实例分割模型也有了一阶段思路：https://zhuanlan.zhihu.com/p/382381119
-   8. 全景分割的端到端模型正在形成中：
+   8. 全景分割的端到端模型正在形成中：https://zhuanlan.zhihu.com/p/382383957
    9. transformer中的核心多头注意力机制：https://zhuanlan.zhihu.com/p/376122835
 
 ```
