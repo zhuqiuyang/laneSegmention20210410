@@ -246,5 +246,8 @@ Pipeline:
    3. ORCNET:https://github.com/open-mmlab/mmsegmentation/tree/master/configs/ocrnet 
    4. 自定义数据集的方法：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/tutorials/customize_datasets.md
    5. 训练模型的操作步骤：https://github.com/open-mmlab/mmsegmentation/blob/master/docs/train.md
+   6. 19年之后的几个语义分割模型：https://zhuanlan.zhihu.com/p/382378039
+   7. 实例分割模型也有了一阶段思路：
+   8. 全景分割的端到端模型正在形成中：
 
 ```
