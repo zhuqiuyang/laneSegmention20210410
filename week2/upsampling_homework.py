@@ -69,16 +69,16 @@ def bilinear_interpolation_fast(src, dst_size):
     np.expand_dims(src_x - src_x1, -1)
     -1 :最后一个纬度
     '''
-    import pdb
-    pdb.set_trace()
+    # import pdb
+    # pdb.set_trace()
     y1_value = np.expand_dims(src_x - src_x1, -1) * src[src_y1, src_x2] + \
                np.expand_dims(src_x2 - src_x, -1) * src[src_y1, src_x1]
 
     y2_value = np.expand_dims(src_x - src_x1, -1) * src[src_y2, src_x2] + \
                np.expand_dims(src_x2 - src_x, -1) * src[src_y2, src_x1]
     # 
-    import pdb
-    pdb.set_trace()
+    # import pdb
+    # pdb.set_trace()
     dst = np.expand_dims(src_y - src_y1, -1) * y2_value + \
           np.expand_dims(src_y2 - src_y, -1) * y1_value
 

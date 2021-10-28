@@ -2,6 +2,11 @@
   - 开讲日期20210411-上午9点
   - 以下文件都可以在https://gitee.com/mingminglaoshi/lane-segmention20210410     找到，若找不到联系，可以明明老师协助。微信13271929138
   - week1 
+
+```sh
+pip install opencv-contrib-python
+```
+
 ```
 CV名企课-车道线分割-WEEK1 :  项目概述及上采样技术
 https://gitee.com/mingminglaoshi/lane-segmention20210410
